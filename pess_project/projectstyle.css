@@ -1,0 +1,40 @@
+*{
+margin: 0;
+padding: 0;
+font-family: arial;
+}
+
+header{
+	background-size: cover;
+	background-position: center
+}
+
+body{
+	background-color: powderblue;
+}
+u1{
+float: right;
+list-style-type: none;
+margin-top: 25px; 	
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6 ease;
+}
+ul li a:hover{
+	background-color: #000;
+	color: #fff ;
+}
+
+form{
+margin: 0 auto; 
+width:250px;	
+}
